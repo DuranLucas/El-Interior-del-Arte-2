@@ -44,6 +44,10 @@ hr {
 .img-full {
   min-width: 100%;
 }
+.img-left {
+  float: left;
+  margin-right: 25px;
+}
 
 .brand-name {
   font-weight: 700;
@@ -76,6 +80,7 @@ hr {
   float: none;
   margin: 0 auto 0;
   border: #999999 solid 3px;
+  border-radius: 5%;
 }
 
 .img-left {
@@ -103,8 +108,26 @@ footer p {
   margin: 10px 10px;
 }
 .img-catalogo{
-  width: 400px;
-  height: 400px;
+  margin-bottom: 40px;
+}
+.h2inicio{
+  text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.5);
+}
+.img-nosotros{
+  margin-bottom: 30px;
+}
+h2 a{
+  text-decoration: none;
+}
+h2{
+  text-decoration: none;
+}
+a:hover{
+  color: rgb(226, 219, 219);
+  text-decoration: none;
+}
+.nuestrocatalogo a:hover{
+  color: black;
 }
 
 @media screen and (min-width: 768px) {
@@ -123,11 +146,6 @@ footer p {
 
 .top-divider {
   margin-top: 0;
-}
-
-.img-left {
-  float: left;
-  margin-right: 25px;
 }
 
 .address-bar {
